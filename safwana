@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Bio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AYSHATH SAFWANA D</h1>
+        <p><strong>Profession:</strong> LECTURER (e.g., Web Developer, Student)</p>
+        <p><strong>Location:</strong> MANJESHWAR-KASARAGOD</p>
+        <p><strong>About Me:</strong></p>
+        <p>
+      I completed my Bachelor's degree in Computer Applications (BCA) in Balmatta, followed by a Master's degree from Srinivas University.
+I began my academic career as an Assistant Professor at Srinivas University, Institute of Allied Health Sciences (IAHS), in the Department of Digital and Cyber Forensics, where I served from January 4, 2021, to September 30, 2023.
+Subsequently, I worked as a Guest Lecturer at Yenepoya Institute of Management Studies, in the Department of Computer Science, from October 4, 2023, to February 11, 2024. I was then appointed as a Lecturer in the same department on February 12, 2024, where I continue to serve to date.
+        </p>
+        <p><strong>Contact:</strong> safwana@yenepoya.edu.in</p>
+    </div>
+</body>
+</html>
