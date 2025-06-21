@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arpitha S – Bio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #89f7fe, #66a6ff);
+      color: #333;
+    }
+
+    .bio-container {
+      max-width: 800px;
+      margin: 60px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+      text-align: center;
+    }
+
+    .bio-image {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #66a6ff;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 10px 0;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .details {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .contact-button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 12px 24px;
+      background-color: #66a6ff;
+      color: white;
+      text-decoration: none;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .contact-button:hover {
+      background-color: #558de8;
+    }
+
+    .address {
+      font-size: 0.95rem;
+      color: #444;
+      margin-top: 20px;
+    }
+
+    /* Modal styles */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 10;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.6);
+    }
+
+    .modal-content {
+      background-color: #fff;
+      margin: 15% auto;
+      padding: 30px;
+      border: 2px solid #66a6ff;
+      width: 90%;
+      max-width: 400px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 24px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .close:hover {
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bio-container">
+    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Profile Photo" class="bio-image" />
+    <h1>Arpitha S</h1>
+    <h2>Lecturer, Department of Computer Science</h2>
+    <div class="details">YIASCM College</div>
+    <p>
+      I am passionate about teaching and committed to helping students grow in the world of Computer Science.
+      With a focus on clarity and engagement, I strive to make learning interactive and meaningful.
+    </p>
+
+    <button class="contact-button" onclick="openModal()">Contact Me</button>
+
+    <div class="address">
+      #23, Knowledge Park, Tech City,<br />
+      Dakshina kannada, Karnataka – 560001
+    </div>
+  </div>
+
+  <!-- Modal HTML -->
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2>Contact Information</h2>
+      <p>📞 Phone: <strong>8574978638</strong></p>
+      <p>📧 Email: <strong>arpitha@example.com</strong></p>
+    </div>
+  </div>
+
+  <!-- JavaScript for modal -->
+  <script>
+    function openModal() {
+      document.getElementById("contactModal").style.display = "block";
+    }
+
+    function closeModal() {
+      document.getElementById("contactModal").style.display = "none";
+    }
+
+    window.onclick = function(event) {
+      const modal = document.getElementById("contactModal");
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    };
+  </script>
+
+</body>
+</html>
