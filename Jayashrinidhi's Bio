@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            max-width: 800px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Jayashrinidhi</h1>
+        <h2>Lecturer, computer science department/n YIASCM Balmatta mangalore</h2>
+        <p>
+            Hello! I'm Jayashrinidhi, a Lecturer, Yenepoya University based in Balmatta,Mangalore.
+            I have a passion for Teaching. 
+            And I love working on projects that involve AI/ML.
+        </p>
+
+        <h2>Education</h2>
+        <p>Master's Degree in Computer Application from Mangalore University</p>
+
+        <h2>Experience</h2>
+        <ul>
+            <li>Role at Company A - [Years]</li>
+            
+        </ul>
+
+        <h2>Contact</h2>
+        <p>Email: jayashrinidhi@yenepoya.edu.in</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
+    </div>
+</body>
+</html>
