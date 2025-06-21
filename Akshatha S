@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akshatha S – Lecturer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bio-container">
+    <div class="bio-content">
+      <h1>Akshatha S</h1>
+      <p class="title">Lecturer in Computer Science</p>
+      <section class="about">
+        <h2>About Me</h2>
+        <p>
+          I am a Lecturer in Computer Science at YIASCM College. I have completed my
+          BCA and MCA, and I’m committed to teaching and shaping future tech leaders.
+        </p>
+      </section>
+      <section class="education">
+        <h2>Education 🎓</h2>
+        <ul>
+          <li>MCA (Master of Computer Applications)</li>
+          <li>BCA (Bachelor of Computer Applications)</li>
+        </ul>
+      </section>
+      <section class="work">
+        <h2>Current Position</h2>
+        <p>
+          Currently working as Lecturer in Computer Science at <strong>YIASCM College</strong>.
+        </p>
+      </section>
+      <div class="links">
+        <a href="mailto:you@example.com">Email</a>
+        <a href="https://www.linkedin.com/">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.bio-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.bio-content h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 0.3rem;
+}
+
+.bio-content .title {
+  font-size: 1.1rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.bio-content section {
+  margin-bottom: 1.5rem;
+}
+
+.bio-content section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #0077cc;
+  color: #0077cc;
+  padding-bottom: 0.2rem;
+}
+
+.bio-content section p,
+.bio-content section ul {
+  line-height: 1.6;
+  margin-left: 1rem;
+}
+
+.bio-content .links {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.bio-content .links a {
+  display: inline-block;
+  margin: 0 0.5rem;
+  color: #fff;
+  background: #0077cc;
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.bio-content .links a:hover {
+  background: #005fa3;
+}
+
+/* Responsive styling */
+@media (max-width: 480px) {
+  .bio-container {
+    padding: 1.5rem;
+  }
+}
+
